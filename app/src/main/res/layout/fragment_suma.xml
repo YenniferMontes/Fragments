@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.uninorte.fragments.FragmentSuma"
+    android:background="#ccfff2	"
+    android:id="@+id/FrameSuma">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sumar + 1"
+            android:background="#808080"
+            android:id="@+id/BotonSumar"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
